@@ -8,60 +8,27 @@ body {
 header {
   background: #333;
   color: #fff;
-  padding: 10px 0;
+  padding: 10px 20px;
 }
 
-header ul {
-  display: flex;
-  justify-content: center;
+header nav ul {
   list-style: none;
-  margin: 0;
   padding: 0;
 }
 
-header ul li {
-  margin: 0 15px;
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
 }
 
-header ul li a {
+header nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
 }
 
-section {
-  padding: 20px;
+.hero {
   text-align: center;
-}
-
-section#home {
-  background: #f4f4f4;
-}
-
-section#services ul {
-  list-style: none;
-  padding: 0;
-}
-
-form {
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-form label {
-  display: block;
-  margin: 10px 0 5px;
-}
-
-form input, form textarea, form button {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-footer {
-  background: #333;
+  padding: 50px;
+  background: url('../images/home.jpg') no-repeat center center/cover;
   color: #fff;
-  text-align: center;
-  padding: 10px 0;
 }
