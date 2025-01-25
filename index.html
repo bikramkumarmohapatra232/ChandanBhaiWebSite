@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Insurance Broker - Home</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -11,7 +10,7 @@
     <img src="images/logo.png" alt="Insurance Logo" class="logo">
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -19,16 +18,46 @@
     </nav>
   </header>
 
-  <main>
-    <section class="hero">
-      <h1>Welcome to Your Trusted Insurance Broker</h1>
-      <p>Protecting what matters most to you.</p>
-      <a href="services.html" class="btn">Explore Our Services</a>
-    </section>
-  </main>
+  <!-- Slider Container -->
+  <div class="slider-container">
+    <div class="slide active">
+      <img src="images/health.jpg" alt="Health Insurance">
+      <div class="caption">
+        <h2>Health Insurance</h2>
+        <p>Keep your family safe and secure with comprehensive health coverage.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="images/car.jpg" alt="Car Insurance">
+      <div class="caption">
+        <h2>Car Insurance</h2>
+        <p>Drive with confidence, knowing you have the right protection.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="images/home.jpg" alt="Home Insurance">
+      <div class="caption">
+        <h2>Home Insurance</h2>
+        <p>Protect your home from unexpected events.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="images/life.jpg" alt="Life Insurance">
+      <div class="caption">
+        <h2>Life Insurance</h2>
+        <p>Secure your loved ones’ future.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional Prev/Next Buttons -->
+  <button id="prevBtn">&#10094;</button>
+  <button id="nextBtn">&#10095;</button>
 
   <footer>
     <p>&copy; 2025 Insurance Broker. All rights reserved.</p>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
