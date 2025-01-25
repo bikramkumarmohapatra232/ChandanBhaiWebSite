@@ -32,3 +32,17 @@ header nav ul li a {
   background: url('../images/home.jpg') no-repeat center center/cover;
   color: #fff;
 }
+/* General logo styling */
+.logo {
+  display: block; /* Ensures the logo acts like an inline block */
+  max-width: 150px; /* Sets the maximum width of the logo */
+  height: auto; /* Maintains the aspect ratio */
+  margin: 10px auto; /* Adds spacing around the logo */
+}
+
+/* Adjust logo size for larger screens */
+@media (min-width: 768px) {
+  .logo {
+    max-width: 200px; /* Increase size for desktops */
+  }
+}
